@@ -297,8 +297,16 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+.portfolio-cards-item {
+	margin-bottom: 30px;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+}
 .portfolio-cards-item:not(:nth-child(3n)) {
-	margin-right: 30px;
+	margin-right: 27px;
+}
+.portfolio-project-container {
+	padding: 20px 24px;
 }
 .portfolio-project-title {
 	font-weight: 700;
