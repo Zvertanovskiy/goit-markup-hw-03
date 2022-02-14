@@ -22,8 +22,8 @@
 	</head>
 	<body>
 		<!-- HEADER -->
-		<header class="header-section">
-			<div class="wrapper ">
+		<header class="header-section container">
+			<div class="container header-container">
 				<nav class="navigation">
 					<a class="logo-link link" href="" lang="en"
 						><span class="logo-colorize">Web</span>Studio</a
@@ -60,7 +60,7 @@
 		</header>
 		<!-- HERO -->
 		<main>
-			<section class="hero-section wrapper ">
+			<section class="hero-section container">
 				<h1 class="main-title">
 					Эффективные решения <br />
 					для вашего бизнеса
@@ -69,31 +69,31 @@
 			</section>
 			<!-- HERO ENDS -->
 			<!-- SPECIALIZATION -->
-			<section class="specialization-section wrapper ">
-				<h2 class="overtitle specialization-title-hidden ">Особенности</h2>
-				<ul class="list">
-					<li>
+			<section class="specialization-section container">
+				<h2 class="overtitle specialization-title-hidden">Особенности</h2>
+				<ul class="specialization-section-list list">
+					<li class="specialization-section-list-item">
 						<h3 class="subtitle">Внимание к деталям</h3>
 						<p class="specialization-description">
 							Идейные соображения, а также начало повседневной работы по
 							формированию позиции.
 						</p>
 					</li>
-					<li>
+					<li class="specialization-section-list-item">
 						<h3 class="subtitle">Пунктуальность</h3>
 						<p class="specialization-description">
 							Задача организации, в особенности же рамки и место обучения кадров
 							влечет за собой.
 						</p>
 					</li>
-					<li>
+					<li class="specialization-section-list-item">
 						<h3 class="subtitle">Планирование</h3>
 						<p class="specialization-description">
 							Равным образом консультация с широким активом в значительной
 							степени обуславливает.
 						</p>
 					</li>
-					<li>
+					<li class="specialization-section-list-item">
 						<h3 class="subtitle">Современные технологии</h3>
 						<p class="specialization-description">
 							Значимость этих проблем настолько очевидна, что реализация
@@ -104,10 +104,10 @@
 			</section>
 			<!-- SPECIALIZATION ENDS-->
 			<!-- START WHAT WE DOO -->
-			<section class="what-we-doo-section wrapper ">
+			<section class="what-we-doo-section container">
 				<h2 class="overtitle">Чем мы занимаемся</h2>
-				<ul class="list">
-					<li>
+				<ul class="what-we-doo-section-list list">
+					<li class="what-we-doo-section-list-item">
 						<a href=""
 							><img
 								src="./images/box-1.jpg"
@@ -116,7 +116,7 @@
 								height="294"
 						/></a>
 					</li>
-					<li>
+					<li class="what-we-doo-section-list-item">
 						<a href=""
 							><img
 								src="./images/box-2.jpg"
@@ -125,7 +125,7 @@
 								height="294"
 						/></a>
 					</li>
-					<li>
+					<li class="what-we-doo-section-list-item">
 						<a href=""
 							><img
 								src="./images/box-3.jpg"
@@ -137,65 +137,79 @@
 				</ul>
 			</section>
 			<!-- OURE TEAM -->
-			<section class="oure-team-section wrapper ">
+			<section class="oure-team-section container">
 				<h2 class="overtitle">Наша команда</h2>
-				<ul class="list">
-					<li>
+				<ul class="oure-team-section-list list">
+					<li class="oure-team-section-list-item">
 						<img
 							src="./images/team-1.jpg"
 							alt="русый мужчина в очках и бордовой рубашке"
 							width="270"
 							height="260"
 						/>
-						<h3 class="team-member-name">Игорь Демьяненко</h3>
-						<p class="team-member-position" lang="en">Product Designer</p>
+						<div class="card-description">
+							<h3 class="team-member-name">Игорь Демьяненко</h3>
+							<p class="team-member-position" lang="en">Product Designer</p>
+						</div>
 					</li>
-					<li>
+					<li class="oure-team-section-list-item">
 						<img
 							src="./images/team-2.jpg"
 							alt="женщина блондинка в очках и черном пиджаке"
 							width="270"
 							height="260"
 						/>
-						<h3 class="team-member-name">Ольга Репина</h3>
-						<p class="team-member-position" lang="en">Frontend Developer</p>
+						<div class="card-description">
+							<h3 class="team-member-name">Ольга Репина</h3>
+							<p class="team-member-position" lang="en">Frontend Developer</p>
+						</div>
 					</li>
-					<li>
+					<li class="oure-team-section-list-item">
 						<img
 							src="./images/team-3.jpg"
 							alt="молодой перень в светлой рубашке"
 							width="270"
 							height="260"
 						/>
-						<h3 class="team-member-name">Николай Тарасов</h3>
-						<p class="team-member-position" lang="en">Marketing</p>
+						<div class="card-description">
+							<h3 class="team-member-name">Николай Тарасов</h3>
+							<p class="team-member-position" lang="en">Marketing</p>
+						</div>
 					</li>
-					<li>
+					<li class="oure-team-section-list-item">
 						<img
 							src="./images/team-4.jpg"
 							alt="молодой парень с бородой в очках и черной футболке"
 							width="270"
 							height="260"
 						/>
-						<h3 class="team-member-name">Михаил Ермаков</h3>
-						<p class="team-member-position" lang="en">UI Designer</p>
+						<div class="card-description">
+							<h3 class="team-member-name">Михаил Ермаков</h3>
+							<p class="team-member-position" lang="en">UI Designer</p>
+						</div>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<!-- FOOTER -->
-		<footer class="footer" id="contacts">
-			<div class="wrapper ">
+		<footer class="footer container" id="contacts">
+			<div class="footer-container">
 				<a class="logo-link link" href=""
 					><span class="logo-colorize">Web</span>Studio</a
 				>
-				<address class="acsual-adress">г. Киев, пр-т Леси Украинки, 26</address>
-				<a class="footer-contacts link" href="mailto:info@example.com"
-					>info@example.com</a
-				>
-				<a class="footer-contacts link" href="tel:+380991111111"
-					>+38 099 111 11 11</a
-				>
+				<address class="footer-address">
+					<a
+						class="footer-contacts link"
+						href="https://goo.gl/maps/xmpNmzXk6W9cbx2f9"
+						>г. Киев, пр-т Леси Украинки, 26</a
+					>
+					<a class="footer-contacts link" href="mailto:info@example.com"
+						>info@example.com</a
+					>
+					<a class="footer-contacts link" href="tel:+380991111111"
+						>+38 099 111 11 11</a
+					>
+				</address>
 			</div>
 		</footer>
 	</body>
