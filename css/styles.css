@@ -303,7 +303,7 @@ body {
 	box-sizing: border-box;
 }
 .portfolio-cards-item:not(:nth-child(3n)) {
-	margin-right: 27px;
+	margin-right: 26px;
 }
 .portfolio-project-container {
 	padding: 20px 24px;
