@@ -76,11 +76,11 @@ body {
 .header-section {
 	padding-top: 32px;
 	padding-bottom: 32px;
-	border: 1px solid #000000;
 	box-sizing: border-box;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	display: flex;
 	align-items: center;
+	border-bottom: 1px solid #ececec;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-container {
 	display: flex;
@@ -130,11 +130,14 @@ body {
 .hero-section {
 	padding-top: 200px;
 	padding-bottom: 200px;
+}
+.hero-section-container {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
 .main-title {
+	text-align: center;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -168,6 +171,9 @@ body {
 	display: flex;
 	align-items: center;
 }
+.specialization-section-list-item {
+	width: 270px;
+}
 .specialization-section-list-item:not(:last-child) {
 	margin-right: 30px;
 }
@@ -192,7 +198,6 @@ body {
 /* =======END SPECIALIZATION======= */
 /* =======START WHAT WE DO======= */
 .what-we-doo-section {
-	padding-top: 94px;
 	padding-bottom: 94px;
 }
 .what-we-doo-section-list {
@@ -222,7 +227,9 @@ body {
 	margin-right: 29px;
 }
 .card-description {
-	padding-bottom: 60px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
 }
 .team-member-name {
 	font-weight: 500;
@@ -256,7 +263,11 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: inherit;
+	margin-bottom: 9px;
 	/* color: var(--third-color); */
+}
+.footer-address > a:last-child {
+	margin-bottom: 0;
 }
 /* =======END FOOTER======= */
 
@@ -291,7 +302,7 @@ body {
 	background-color: var(--accent-color);
 }
 .btn-container {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 .portfolio-cards {
 	display: flex;
@@ -302,8 +313,12 @@ body {
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
 }
+
 .portfolio-cards-item:not(:nth-child(3n)) {
 	margin-right: 26px;
+}
+.portfolio-cards-item:nth-last-child(-n + 3) {
+	margin-bottom: 0px;
 }
 .portfolio-project-container {
 	padding: 20px 24px;
